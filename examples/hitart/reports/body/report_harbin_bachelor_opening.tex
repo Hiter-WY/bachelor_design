@@ -183,12 +183,12 @@ Stiennon等研究者在使用GPT-3参数分别为13亿（1.3B）和67亿（6.7B�
 此处的通用大模型是用作奖励模型（Reward Model）来调整最终模型，大致的流程涉及上述的指令微调、奖励建模和强化学习（RLHF，Reinforcement Learning with Human Feedback）。奖励模型的反馈与下游神经网络相结合，通过强化学习的方法（如PPO\cite{Wang2024APT}，Proximal Policy Optimization）来优化目标模型，以提升回答准确性。
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.6\textwidth]{./img/rm.png}
+    \includegraphics[width=0.45\textwidth]{./img/rm.png}
     \caption{奖励模型设计}\label{fig:奖励模型设计}
 \end{figure}
 \begin{itemize}
     \item[1.]奖励模型的输入设计\cite{pmlr-v202-longpre23a}：奖励模型的输入有三个：指令集、网安文本、带有评分标签的问答对，指令即为任务目标，为了提高模型的泛化能力，指令集要尽可能的丰富，输入中每一个网安文本对应的带有评分标签的问答对都会做为训练集。其中的文本嵌入过程可以使用SentencePiece分词器实现由文本到单词到编码序列到嵌入向量的过程。
-    \item[2.]奖励模型的输出设计：由于奖励模型的目的是对目标模型的调整，调整方式为接受目标模型的输出的问答对与网安文本，所以奖励模型的输出为对该网安文本提出的问题的回答带上一个评分标签。由于奖励模型的输出要交给下游神经网络继续任务，所以采用最终隐藏状态输出较为合理，其形式为：\[ \text{[batch\_size（样本数量）, sequence\_length（序列长度）,  hidden\_size（维度）]} \]。
+    \item[2.]奖励模型的输出设计：由于奖励模型的目的是对目标模型的调整，调整方式为接受目标模型的输出的问答对与网安文本，所以奖励模型的输出为对该网安文本提出的问题的回答带上一个评分标签。由于奖励模型的输出要交给下游神经网络继续任务，所以采用最终隐藏状态输出较为合理，其形式为：\[ \text{[batch\_size, sequence\_length,  hidden\_size]} \]，其中$\text{batch\_size}$是批次大小，$\text{sequence\_length}$是状态序列长度，$\text{hidden\_size}$是维度。
     \item[3.] 下游神经网络的设计\cite{Chung2022ScalingIL}：
     \begin{itemize}
         \item[1.]池化层设计：下游神经网络通过接受奖励模型的最终隐藏状态输出后要将其池化处理将序列数据转为定长做为全连接层的输入。池化层可选择平均池化捕捉序列中的全局信息。

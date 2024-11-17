@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.17)  17 NOV 2024 23:03
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.17)  18 NOV 2024 00:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1266,20 +1266,13 @@ File: ./img/ft.png Graphic file (type bmp)
  [7] [8]
 File: ./img/rm.png Graphic file (type bmp)
 <./img/rm.png>
-
-Overfull \hbox (4.35527pt too wide) detected at line 191
-[]
- []
-
-[9]
+ [9]
 File: ./img/pre.png Graphic file (type bmp)
 <./img/pre.png>
- [10]
+ [10] [11]
 Missing character: There is no ​ (U+200B) in font [TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-[11]
 File: ./img/dropout.png Graphic file (type bmp)
 <./img/dropout.png>
-
 Missing character: There is no ​ (U+200B) in font [TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 (./report.bbl [12]
 Underfull \hbox (badness 2426) in paragraph at lines 43--44
@@ -1303,11 +1296,11 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 81CA295D5F12F6341C7B7C9B662AB6E6;4262.
  ) 
 Here is how much of TeX's memory you used:
- 24143 strings out of 474773
- 496799 string characters out of 5761288
- 1941842 words of memory out of 5000000
- 45828 multiletter control sequences out of 15000+600000
- 594867 words of font info for 178 fonts, out of 8000000 for 9000
+ 24089 strings out of 474773
+ 493161 string characters out of 5761288
+ 1942842 words of memory out of 5000000
+ 45776 multiletter control sequences out of 15000+600000
+ 594851 words of font info for 176 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,111p,1197b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
