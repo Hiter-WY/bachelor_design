@@ -1,0 +1,81 @@
+\begin{thebibliography}{10}
+\providecommand{\bibauthor}[1]{#1}
+\providecommand{\bibeditor}[1]{#1}
+\providecommand{\bibtranslator}[1]{#1}
+\providecommand{\bibtitle}[1]{#1}
+\providecommand{\bibbooktitle}[1]{#1}
+\providecommand{\bibjournal}[1]{#1}
+\providecommand{\bibmark}[1]{\mbox{#1}}
+\providecommand{\bibcountry}[1]{#1}
+\providecommand{\bibpatentid}[1]{#1}
+\providecommand{\bibedition}[1]{#1}
+\providecommand{\biborganization}[1]{#1}
+\providecommand{\bibaddress}[1]{#1}
+\providecommand{\bibpublisher}[1]{#1}
+\providecommand{\bibinstitution}[1]{#1}
+\providecommand{\bibschool}[1]{#1}
+\providecommand{\bibvolume}[1]{#1}
+\providecommand{\bibnumber}[1]{#1}
+\providecommand{\bibversion}[1]{#1}
+\providecommand{\bibpages}[1]{#1}
+\providecommand{\bibmodifydate}[1]{#1}
+\providecommand{\bibcitedate}[1]{#1}
+\providecommand{\bibyear}[1]{#1}
+\providecommand{\bibdate}[1]{#1}
+\providecommand{\biburl}[1]{\newline\url{#1}}
+
+\bibitem{Ziegler2019FineTuningLM}
+\bibauthor{Ziegler D~M\@, Stiennon N\@, Wu J, et~al}\@. \bibtitle{Fine-Tuning Language Models from Human Preferences}\bibmark{[J/OL]}\@. \bibjournal{ArXiv}\@, \bibyear{2019}\@, \bibvolume{abs/1909.08593}\@. \url{https://api.semanticscholar.org/CorpusID:202660943}\@.
+
+\bibitem{10.5555/3495724.3495977}
+\bibauthor{Stiennon N\@, Ouyang L\@, Wu J, et~al}\@. \bibtitle{Learning to summarize from human feedback}\bibmark{[C]} //\thinspace{}\bibbooktitle{NIPS '20\textnormal{: }Proceedings of the 34th International Conference on Neural Information Processing Systems}\@. \bibaddress{Red Hook, NY, USA}\textnormal{: }\bibpublisher{Curran Associates Inc.}\@, \bibyear{2020}\@.
+
+\bibitem{10436853}
+\bibauthor{Chen S-S\@, Hwang R-H\@, Sun C-Y, et~al}\@. \bibtitle{Enhancing Cyber Threat Intelligence with Named Entity Recognition Using BERT-CRF}\bibmark{[C/OL]} //\thinspace{}\bibbooktitle{GLOBECOM 2023 - 2023 IEEE Global Communications Conference}\@. \bibyear{2023}\textnormal{: }\bibpages{7532\textnormal{-}7537}\@. \url{http://dx.doi.org/10.1109/GLOBECOM54140.2023.10436853}\@.
+
+\bibitem{yang2024network}
+\bibauthor{Yang H\@, Zhang H\@, Hu Z, et~al}\@. \bibtitle{A Review of Network Anomaly Traffic Detection Based on Deep Learning}\bibmark{[J/OL]}\@. \bibjournal{Journal of Wuhan University (Natural Science Edition)}\@, \bibyear{2024}\textnormal{: }\bibpages{1\textnormal{-}14}\@. \url{http://dx.doi.org/10.14188/j.1671-8836.2024.0043}\@.
+
+\bibitem{pmlr-v202-longpre23a}
+\bibauthor{Longpre S\@, Hou L\@, Vu T, et~al}\@. \bibtitle{The Flan Collection: Designing Data and Methods for Effective Instruction Tuning}\bibmark{[C/OL]} //\thinspace{}\bibeditor{Krause A\@, Brunskill E\@, Cho K, et~al}\@. \bibbooktitle{Proceedings of Machine Learning Research\@, Vol~202\textnormal{: }Proceedings of the 40th International Conference on Machine Learning}\@. \bibaddress{[S.l.]}\textnormal{: }\bibpublisher{PMLR}\@, \bibyear{2023}\textnormal{: }\bibpages{22631\textnormal{-}22648}\@. \url{https://proceedings.mlr.press/v202/longpre23a.html}\@.
+
+\bibitem{Ye2023CognitiveMA}
+\bibauthor{Ye H\@, Liu T\@, Zhang A, et~al}\@. \bibtitle{Cognitive Mirage: A Review of Hallucinations in Large Language Models}\bibmark{[J/OL]}\@. \bibjournal{ArXiv}\@, \bibyear{2023}\@, \bibvolume{abs/2309.06794}\@. \url{https://api.semanticscholar.org/CorpusID:261705916}\@.
+
+\bibitem{nayak-etal-2024-learning}
+\bibauthor{Nayak N\@, Nan Y\@, Trost A, et~al}\@. \bibtitle{Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation}\bibmark{[C/OL]} //\thinspace{}\bibeditor{Ku L-W\@, Martins A\@, Srikumar V}\@. \bibbooktitle{Findings of the Association for Computational Linguistics: ACL 2024}\@. \bibaddress{Bangkok, Thailand}\textnormal{: }\bibpublisher{Association for Computational Linguistics}\@, \bibyear{2024}\textnormal{: }\bibpages{12585\textnormal{-}12611}\@. \url{https://aclanthology.org/2024.findings-acl.748}\@.
+
+\bibitem{2021LoRA}
+\bibauthor{Hu E~J\@, Shen Y\@, Wallis P, et~al}\@. \bibtitle{LoRA: Low-Rank Adaptation of Large Language Models}\bibmark{[J]}\@, \bibyear{2021}\@.
+
+\bibitem{li2021prefix}
+\bibauthor{Li X~L\@, Liang P}\@. \bibtitle{Prefix-Tuning: Optimizing Continuous Prompts for Generation}\bibmark{[J/OL]}\@, \bibyear{2021}\@. \url{https://arxiv.org/abs/2101.00190}\@.
+
+\bibitem{hu-etal-2023-llm}
+\bibauthor{Hu Z\@, Wang L\@, Lan Y, et~al}\@. \bibtitle{{LLM}-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models}\bibmark{[C/OL]} //\thinspace{}\bibeditor{Bouamor H\@, Pino J\@, Bali K}\@. \bibbooktitle{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}\@. \bibaddress{Singapore}\textnormal{: }\bibpublisher{Association for Computational Linguistics}\@, \bibyear{2023}\textnormal{: }\bibpages{5254\textnormal{-}5276}\@. \url{https://aclanthology.org/2023.emnlp-main.319}\@.
+
+\bibitem{Wang2024APT}
+\bibauthor{Wang X\@, Ma Z\@, Cao L, et~al}\@. \bibtitle{A planar tracking strategy based on multiple-interpretable improved PPO algorithm with few-shot technique}\bibmark{[J/OL]}\@. \bibjournal{Scientific Reports}\@, \bibyear{2024}\@, \bibvolume{14}\@. \url{https://api.semanticscholar.org/CorpusID:267722253}\@.
+
+\bibitem{Chung2022ScalingIL}
+\bibauthor{Chung H~W\@, Hou L\@, Longpre S, et~al}\@. \bibtitle{Scaling Instruction-Finetuned Language Models}\bibmark{[J/OL]}\@. \bibjournal{ArXiv}\@, \bibyear{2022}\@, \bibvolume{abs/2210.11416}\@. \url{https://api.semanticscholar.org/CorpusID:253018554}\@.
+
+\bibitem{10.5555/1622407.1622416}
+\bibauthor{Chawla N~V\@, Bowyer K~W\@, Hall L~O, et~al}\@. \bibtitle{SMOTE: synthetic minority over-sampling technique}\bibmark{[J]}\@. \bibjournal{J. Artif. Int. Res.}\@, \bibyear{2002}\@, \bibvolume{16}\bibnumber{(1)}\textnormal{: }\bibpages{321–357}\@.
+
+\bibitem{2005Borderline}
+\bibauthor{Han H\@, Wang W~Y\@, Mao B~H}\@. \bibtitle{Borderline-SMOTE: A New Over-Sampling Method in Imbalanced Data Sets Learning}\bibmark{[J]}\@. \bibjournal{Lecture Notes in Computer Science}\@, \bibyear{2005}\@.
+
+\bibitem{Krawczyk2016LearningFI}
+\bibauthor{Krawczyk B}\@. \bibtitle{Learning from imbalanced data: open challenges and future directions}\bibmark{[J/OL]}\@. \bibjournal{Progress in Artificial Intelligence}\@, \bibyear{2016}\@, \bibvolume{5}\textnormal{: }\bibpages{221 \textnormal{-} 232}\@. \url{https://api.semanticscholar.org/CorpusID:207475120}\@.
+
+\bibitem{10533733}
+\bibauthor{Li H\@, Rajbahadur G~K\@, Lin D, et~al}\@. \bibtitle{Keeping Deep Learning Models in Check: A History-Based Approach to Mitigate Overfitting}\bibmark{[J/OL]}\@. \bibjournal{IEEE Access}\@, \bibyear{2024}\@, \bibvolume{12}\textnormal{: }\bibpages{70676\textnormal{-}70689}\@. \url{http://dx.doi.org/10.1109/ACCESS.2024.3402543}\@.
+
+\bibitem{10.1145/2347736.2347755}
+\bibauthor{Domingos P}\@. \bibtitle{A few useful things to know about machine learning}\bibmark{[J/OL]}\@. \bibjournal{Commun. ACM}\@, \bibyear{2012}\@, \bibvolume{55}\bibnumber{(10)}\textnormal{: }\bibpages{78–87}\@. \url{https://doi.org/10.1145/2347736.2347755}\@.
+
+\bibitem{Cai2019EffectiveAE}
+\bibauthor{Cai S\@, Gao J\@, Zhang M, et~al}\@. \bibtitle{Effective and Efficient Dropout for Deep Convolutional Neural Networks}\bibmark{[J/OL]}\@. \bibjournal{ArXiv}\@, \bibyear{2019}\@, \bibvolume{abs/1904.03392}\@. \url{https://api.semanticscholar.org/CorpusID:102351044}\@.
+
+\end{thebibliography}

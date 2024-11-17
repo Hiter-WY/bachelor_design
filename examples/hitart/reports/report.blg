@@ -1,0 +1,75 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: report.aux
+The style file: hithesis.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: reference.bib
+Warning--string name "aug" is undefined
+--line 173 of file reference.bib
+Warning--string name "jun" is undefined
+--line 305 of file reference.bib
+Warning--string name "dec" is undefined
+--line 501 of file reference.bib
+Warning--string name "oct" is undefined
+--line 579 of file reference.bib
+Warning--Require citedate: Ziegler2019FineTuningLM
+Warning--Require citedate: 10436853
+Warning--Require citedate: yang2024network
+Warning--Require address: pmlr-v202-longpre23a
+Warning--Require citedate: pmlr-v202-longpre23a
+Warning--Require citedate: Ye2023CognitiveMA
+Warning--Require citedate: nayak-etal-2024-learning
+Warning--Require journal: 2021LoRA
+Warning--Require journal: li2021prefix
+Warning--Require citedate: li2021prefix
+Warning--Require citedate: hu-etal-2023-llm
+Warning--Require citedate: Wang2024APT
+Warning--Require citedate: Chung2022ScalingIL
+Warning--Require citedate: Krawczyk2016LearningFI
+Warning--Require citedate: 10533733
+Warning--Require citedate: 10.1145/2347736.2347755
+Warning--Require citedate: Cai2019EffectiveAE
+You've used 18 entries,
+            3107 wiz_defined-function locations,
+            843 strings with 11441 characters,
+and the built_in function-call counts, 36457 in all, are:
+= -- 4126
+> -- 76
+< -- 179
++ -- 3354
+- -- 253
+* -- 1007
+:= -- 4289
+add.period$ -- 0
+call.type$ -- 18
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 35
+duplicate$ -- 5127
+empty$ -- 1217
+format.name$ -- 232
+if$ -- 9725
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 0
+newline$ -- 81
+num.names$ -- 21
+pop$ -- 445
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 273
+stack$ -- 0
+substring$ -- 4371
+swap$ -- 839
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 17
+while$ -- 442
+width$ -- 20
+write$ -- 291
+(There were 21 warnings)

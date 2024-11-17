@@ -1,0 +1,406 @@
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.4.18)  14 NOV 2024 13:00
+ restricted system commands enabled.
+**hithesis.ins
+(./hithesis.ins
+LaTeX2e <2022-11-01> patch level 1
+Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
+Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "D:/texlive/2023/texmf-var/luatex-ca
+che/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-res
+olved path "d:/texlive/2023/texmf-dist/tex/luatex/luaotfload/fontloader-2022-10-
+03.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.120
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "D:/texlive/2023/texmf-var/luatex-ca
+che/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programm
+ing layer <2023-03-30>
+Inserting `tracingstacklevels' in `input_level_string'.
+(d:/texlive/2023/texmf-dist/tex/latex/base/docstrip.tex
+\blockLevel=\count183
+\emptyLines=\count184
+\processedLines=\count185
+\commentsRemoved=\count186
+\commentsPassed=\count187
+\codeLinesPassed=\count188
+\TotalprocessedLines=\count189
+\TotalcommentsRemoved=\count190
+\TotalcommentsPassed=\count191
+\TotalcodeLinesPassed=\count192
+\NumberOfFiles=\count193
+\inFile=\read2
+\inputcheck=\read3
+\off@0=\count194
+\off@1=\count195
+\off@2=\count196
+\off@3=\count197
+\off@4=\count198
+\off@5=\count199
+\off@6=\count266
+\off@7=\count267
+\off@8=\count268
+\off@9=\count269
+\off@10=\count270
+\off@11=\count271
+\off@12=\count272
+\off@13=\count273
+\off@14=\count274
+\off@15=\count275
+\@maxfiles=\count276
+\@maxoutfiles=\count277
+
+Utility: `docstrip' v2.6b <2022-09-03>
+English documentation    <2022-09-03>
+
+**********************************************************
+* This program converts documented macro-files into fast *
+* loadable files by stripping off (nearly) all comments! *
+**********************************************************
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+
+)
+
+Generating file(s) ./hithesisbook.cls ./examples/hitbook/chinese/hithesisbook.c
+ls ./examples/hitbook/english/hithesisbook.cls ./hithesisart.cls ./examples/hit
+art/reports/hithesisart.cls ./hithesisartplus.cls ./examples/hitart/reportplus/
+hithesisartplus.cls ./hithesisbook.cfg ./examples/hitbook/chinese/hithesisbook.
+cfg ./examples/hitbook/english/hithesisbook.cfg ./hithesisart.cfg ./examples/hi
+tart/reports/hithesisart.cfg ./examples/hitart/reportplus/hithesisart.cfg ./hit
+hesis.ist ./examples/hitbook/chinese/hithesis.ist ./dtx-style.sty ./examples/hi
+tbook/chinese/hithesis.sty ./examples/hitbook/english/hithesis.sty 
+
+\openout0 = ./hithesisbook.cls
+
+\openout1 = ./examples/hitbook/chinese/hithesisbook.cls
+
+\openout2 = ./examples/hitbook/english/hithesisbook.cls
+
+\openout3 = ./hithesisart.cls
+
+\openout4 = ./examples/hitart/reports/hithesisart.cls
+
+\openout5 = ./hithesisartplus.cls
+
+\openout6 = ./examples/hitart/reportplus/hithesisartplus.cls
+
+\openout7 = ./hithesisbook.cfg
+
+\openout8 = ./examples/hitbook/chinese/hithesisbook.cfg
+
+\openout9 = ./examples/hitbook/english/hithesisbook.cfg
+
+\openout10 = ./hithesisart.cfg
+
+\openout11 = ./examples/hitart/reports/hithesisart.cfg
+
+\openout12 = ./examples/hitart/reportplus/hithesisart.cfg
+
+\openout13 = ./hithesis.ist
+
+\openout14 = ./examples/hitbook/chinese/hithesis.ist
+
+\openout15 = ./dtx-style.sty
+
+Processing file hithesis.dtx (bookcls) -> hithesisbook.cls
+                             (bookcls) -> examples/hitbook/chinese/hithesisbook
+.cls
+                             (bookcls) -> examples/hitbook/english/hithesisbook
+.cls
+                             (artcls) -> hithesisart.cls
+                             (artcls) -> examples/hitart/reports/hithesisart.cl
+s
+                             (artpluscls) -> hithesisartplus.cls
+                             (artpluscls) -> examples/hitart/reportplus/hithesi
+sartplus.cls
+                             (bookcfg) -> hithesisbook.cfg
+                             (bookcfg) -> examples/hitbook/chinese/hithesisbook
+.cfg
+                             (bookcfg) -> examples/hitbook/english/hithesisbook
+.cfg
+                             (artcfg) -> hithesisart.cfg
+                             (artcfg) -> examples/hitart/reports/hithesisart.cf
+g
+                             (artcfg) -> examples/hitart/reportplus/hithesisart
+.cfg
+                             (ist) -> hithesis.ist
+                             (ist) -> examples/hitbook/chinese/hithesis.ist
+                             (dtx-style) -> dtx-style.sty
+File hithesis.dtx ended by \endinput.
+Lines  processed: 13568
+Comments removed: 2781
+Comments  passed: 258
+Codelines passed: 10424
+
+
+\openout0 = ./examples/hitbook/chinese/hithesis.sty
+
+\openout1 = ./examples/hitbook/english/hithesis.sty
+
+Processing file hithesis.dtx (hithesis-style) -> examples/hitbook/chinese/hithe
+sis.sty
+                             (hithesis-style) -> examples/hitbook/english/hithe
+sis.sty
+File hithesis.dtx ended by \endinput.
+Lines  processed: 13568
+Comments removed: 2781
+Comments  passed: 258
+Codelines passed: 10424
+
+
+Generating file(s) ./hithesis.bst ./examples/hitbook/chinese/hithesis.bst ./exa
+mples/hitbook/english/hithesis.bst ./examples/hitart/reports/hithesis.bst ./exa
+mples/hitart/reportplus/hithesis.bst ./hitszthesis.bst ./examples/hitbook/chine
+se/hitszthesis.bst ./examples/hitbook/english/hitszthesis.bst ./examples/hitart
+/reports/hitszthesis.bst ./examples/hitart/reportplus/hitszthesis.bst 
+
+\openout0 = ./hithesis.bst
+
+\openout1 = ./examples/hitbook/chinese/hithesis.bst
+
+\openout2 = ./examples/hitbook/english/hithesis.bst
+
+\openout3 = ./examples/hitart/reports/hithesis.bst
+
+\openout4 = ./examples/hitart/reportplus/hithesis.bst
+
+\openout5 = ./hitszthesis.bst
+
+\openout6 = ./examples/hitbook/chinese/hitszthesis.bst
+
+\openout7 = ./examples/hitbook/english/hitszthesis.bst
+
+\openout8 = ./examples/hitart/reports/hitszthesis.bst
+
+\openout9 = ./examples/hitart/reportplus/hitszthesis.bst
+
+Processing file hithesis.dtx (bst) -> hithesis.bst
+                             (bst) -> examples/hitbook/chinese/hithesis.bst
+                             (bst) -> examples/hitbook/english/hithesis.bst
+                             (bst) -> examples/hitart/reports/hithesis.bst
+                             (bst) -> examples/hitart/reportplus/hithesis.bst
+                             (shenzhenbst) -> hitszthesis.bst
+                             (shenzhenbst) -> examples/hitbook/chinese/hitszthe
+sis.bst
+                             (shenzhenbst) -> examples/hitbook/english/hitszthe
+sis.bst
+                             (shenzhenbst) -> examples/hitart/reports/hitszthes
+is.bst
+                             (shenzhenbst) -> examples/hitart/reportplus/hitszt
+hesis.bst
+File hithesis.dtx ended by \endinput.
+Lines  processed: 13568
+Comments removed: 2781
+Comments  passed: 258
+Codelines passed: 10424
+
+
+Generating file(s) ./hitlogo.eps ./examples/hitbook/chinese/hitlogo.eps ./examp
+les/hitbook/english/hitlogo.eps ./examples/hitart/reports/hitlogo.eps ./example
+s/hitart/reportplus/hitlogo.eps ./bthesistitle.eps ./examples/hitbook/chinese/b
+thesistitle.eps ./examples/hitbook/english/bthesistitle.eps ./examples/hitart/r
+eports/bthesistitle.eps ./examples/hitart/reportplus/bthesistitle.eps ./shenzhe
+nbthesistitle.eps ./examples/hitbook/chinese/shenzhenbthesistitle.eps ./example
+s/hitbook/english/shenzhenbthesistitle.eps ./zfb.eps ./examples/hitbook/chinese
+/zfb.eps ./examples/hitbook/english/zfb.eps ./examples/hitart/reports/zfb.eps .
+/examples/hitart/reportplus/zfb.eps ./examples/hitart/reports/hrb-bachelor-bott
+ommark.eps ./examples/hitbook/chinese/hrb-bachelor-bottommark.eps ./examples/hi
+tbook/english/hrb-bachelor-bottommark.eps ./hrb-bachelor-bottommark.eps 
+
+\openout0 = ./hitlogo.eps
+
+\openout1 = ./examples/hitbook/chinese/hitlogo.eps
+
+\openout2 = ./examples/hitbook/english/hitlogo.eps
+
+\openout3 = ./examples/hitart/reports/hitlogo.eps
+
+\openout4 = ./examples/hitart/reportplus/hitlogo.eps
+
+\openout5 = ./bthesistitle.eps
+
+\openout6 = ./examples/hitbook/chinese/bthesistitle.eps
+
+\openout7 = ./examples/hitbook/english/bthesistitle.eps
+
+\openout8 = ./examples/hitart/reports/bthesistitle.eps
+
+\openout9 = ./examples/hitart/reportplus/bthesistitle.eps
+
+\openout10 = ./shenzhenbthesistitle.eps
+
+\openout11 = ./examples/hitbook/chinese/shenzhenbthesistitle.eps
+
+\openout12 = ./examples/hitbook/english/shenzhenbthesistitle.eps
+
+\openout13 = ./zfb.eps
+
+\openout14 = ./examples/hitbook/chinese/zfb.eps
+
+\openout15 = ./examples/hitbook/english/zfb.eps
+
+Processing file hithesis.dtx (hitlogo) -> hitlogo.eps
+                             (hitlogo) -> examples/hitbook/chinese/hitlogo.eps
+                             (hitlogo) -> examples/hitbook/english/hitlogo.eps
+                             (hitlogo) -> examples/hitart/reports/hitlogo.eps
+                             (hitlogo) -> examples/hitart/reportplus/hitlogo.ep
+s
+                             (bthesistitle) -> bthesistitle.eps
+                             (bthesistitle) -> examples/hitbook/chinese/bthesis
+title.eps
+                             (bthesistitle) -> examples/hitbook/english/bthesis
+title.eps
+                             (bthesistitle) -> examples/hitart/reports/bthesist
+itle.eps
+                             (bthesistitle) -> examples/hitart/reportplus/bthes
+istitle.eps
+                             (shenzhenbthesistitle) -> shenzhenbthesistitle.eps
+
+                             (shenzhenbthesistitle) -> examples/hitbook/chinese
+/shenzhenbthesistitle.eps
+                             (shenzhenbthesistitle) -> examples/hitbook/english
+/shenzhenbthesistitle.eps
+                             (zfb) -> zfb.eps
+                             (zfb) -> examples/hitbook/chinese/zfb.eps
+                             (zfb) -> examples/hitbook/english/zfb.eps
+File hithesis.dtx ended by \endinput.
+Lines  processed: 13568
+Comments removed: 2781
+Comments  passed: 258
+Codelines passed: 10424
+
+
+\openout0 = ./examples/hitart/reports/zfb.eps
+
+\openout1 = ./examples/hitart/reportplus/zfb.eps
+
+\openout2 = ./examples/hitart/reports/hrb-bachelor-bottommark.eps
+
+\openout3 = ./examples/hitbook/chinese/hrb-bachelor-bottommark.eps
+
+\openout4 = ./examples/hitbook/english/hrb-bachelor-bottommark.eps
+
+\openout5 = ./hrb-bachelor-bottommark.eps
+
+Processing file hithesis.dtx (zfb) -> examples/hitart/reports/zfb.eps
+                             (zfb) -> examples/hitart/reportplus/zfb.eps
+                             (hrb-bachelor-bottommark) -> examples/hitart/repor
+ts/hrb-bachelor-bottommark.eps
+                             (hrb-bachelor-bottommark) -> examples/hitbook/chin
+ese/hrb-bachelor-bottommark.eps
+                             (hrb-bachelor-bottommark) -> examples/hitbook/engl
+ish/hrb-bachelor-bottommark.eps
+                             (hrb-bachelor-bottommark) -> hrb-bachelor-bottomma
+rk.eps
+File hithesis.dtx ended by \endinput.
+Lines  processed: 13568
+Comments removed: 2781
+Comments  passed: 258
+Codelines passed: 10424
+
+
+Generating file(s) ./golfer.eps ./examples/hitbook/chinese/figures/golfer.eps .
+/examples/hitbook/english/figures/golfer.eps ./examples/hitart/reports/figures/
+golfer.eps ./examples/hitart/reportplus/figures/golfer.eps 
+
+\openout0 = ./golfer.eps
+
+\openout1 = ./examples/hitbook/chinese/figures/golfer.eps
+
+\openout2 = ./examples/hitbook/english/figures/golfer.eps
+
+\openout3 = ./examples/hitart/reports/figures/golfer.eps
+
+\openout4 = ./examples/hitart/reportplus/figures/golfer.eps
+
+Processing file hithesis.dtx (golfer) -> golfer.eps
+                             (golfer) -> examples/hitbook/chinese/figures/golfe
+r.eps
+                             (golfer) -> examples/hitbook/english/figures/golfe
+r.eps
+                             (golfer) -> examples/hitart/reports/figures/golfer
+.eps
+                             (golfer) -> examples/hitart/reportplus/figures/gol
+fer.eps
+File hithesis.dtx ended by \endinput.
+Lines  processed: 13568
+Comments removed: 2781
+Comments  passed: 258
+Codelines passed: 10424
+
+***********************************************************
+*
+* To finish the installation you have to move the following
+* files into a directory searched by TeX:
+*
+* The recommended directory is TEXMF/tex/latex/hithesis
+*
+*   hithesisbook.cls
+*   hithesisart.cls
+*   hithesisartplus.cls
+*   hithesisbook.cfg
+*   hithesisart.cfg
+*   hithesis.ist
+*   hithesis.bst
+*   hitszthesis.bst
+*   hitlogo.eps
+*   bthesistitle.eps
+*   shenzhenbthesistitle.eps
+*   figures/golfer.eps
+*   zfb.eps
+*
+* To produce the documentation run the files ending with
+* `.dtx' through LaTeX.
+*
+* Happy TeXing!
+***********************************************************
+Overall statistics:
+Files  processed: 6
+Lines  processed: 81408
+Comments removed: 16686
+Comments  passed: 1548
+Codelines passed: 62544
+)
+
+Here is how much of LuaTeX's memory you used:
+ 868 strings out of 478278
+ 100000,1977958 words of node,token memory allocated
+ 296 words of node memory still in use:
+   1 hlist, 3 kern, 1 glyph, 1 attribute, 39 glue_spec, 1 attribute_list nodes
+   avail lists: 2:11,3:3,4:1,5:1
+ 21016 multiletter control sequences out of 65536+600000
+ 14 fonts using 591679 bytes
+ 13i,0n,15p,525b,287s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): no pages of output.
+
+PDF statistics: 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
