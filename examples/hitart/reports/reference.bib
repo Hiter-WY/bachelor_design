@@ -1,0 +1,301 @@
+% !Mode:: "TeX:UTF-8"
+
+
+//利用人类反馈和奖励模型对语言模型进行微调，从而提高生成内容的质量
+@article{Ziegler2019FineTuningLM,
+  title={Fine-Tuning Language Models from Human Preferences},
+  author={Daniel M. Ziegler and Nisan Stiennon and Jeff Wu and Tom B. Brown and Alec Radford and Dario Amodei and Paul Christiano and Geoffrey Irving},
+  journal={ArXiv},
+  year={2019},
+  volume={abs/1909.08593},
+  url={https://api.semanticscholar.org/CorpusID:202660943}
+}
+
+//通过人类反馈训练的奖励模型，用于对语言模型生成的文本进行评分
+@INPROCEEDINGS{10.5555/3495724.3495977,
+author = {Stiennon, Nisan and Ouyang, Long and Wu, Jeff and Ziegler, Daniel M. and Lowe, Ryan and Voss, Chelsea and Radford, Alec and Amodei, Dario and Christiano, Paul},
+title = {Learning to summarize from human feedback},
+year = {2020},
+isbn = {9781713829546},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {As language models become more powerful, training and evaluation are increasingly bottlenecked by the data and metrics used for a particular task. For example, summarization models are often trained to predict human reference summaries and evaluated using ROUGE, but both of these metrics are rough proxies for what we really care about—summary quality. In this work, we show that it is possible to significantly improve summary quality by training a model to optimize for human preferences. We collect a large, high-quality dataset of human comparisons between summaries, train a model to predict the human-preferred summary, and use that model as a reward function to fine-tune a summarization policy using reinforcement learning. We apply our method to a version of the TL;DR dataset of Reddit posts [63] and find that our models significantly outperform both human reference summaries and much larger models fine-tuned with supervised learning alone. Our models also transfer to CNN/DM news articles [22], producing summaries nearly as good as the human reference without any news-specific fine-tuning. We conduct extensive analyses to understand our human feedback dataset and fine-tuned models. We establish that our reward model generalizes to new datasets, and that optimizing our reward model results in better summaries than optimizing ROUGE according to humans. We hope the evidence from our paper motivates machine learning researchers to pay closer attention to how their training loss affects the model behavior they actually want.},
+booktitle = {Proceedings of the 34th International Conference on Neural Information Processing Systems},
+articleno = {253},
+numpages = {14},
+location = {Vancouver, BC, Canada},
+series = {NIPS '20}
+}
+
+//大语言模型在网络安全领域的应用，特别是在网络威胁情报（CTI）中使用命名实体识别（NER）技术。
+@INPROCEEDINGS{10436853,
+  author={Chen, Sheng-Shan and Hwang, Ren-Hung and Sun, Chin-Yu and Lin, Ying-Dar and Pai, Tun-Wen},
+  booktitle={GLOBECOM 2023 - 2023 IEEE Global Communications Conference}, 
+  title={Enhancing Cyber Threat Intelligence with Named Entity Recognition Using BERT-CRF}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={7532-7537},
+  keywords={Biological system modeling;Organizations;Conditional random fields;Data models;Cyber threat intelligence;Computer security;Usability;cyber threat intelligence;deep learning;cyber security},
+  doi={10.1109/GLOBECOM54140.2023.10436853}}
+
+
+//基于深度学习的网络异常流量检测研究综述
+ @article{yang2024network,
+  title = {A Review of Network Anomaly Traffic Detection Based on Deep Learning},
+  author = {Yang, Hongyu and Zhang, Haohao and Hu, Ze and others},
+  journal = {Journal of Wuhan University (Natural Science Edition)},
+  year = {2024},
+  pages = {1--14},
+  doi = {10.14188/j.1671-8836.2024.0043},
+  note = {[J/OL]}
+}
+
+
+//BERT模型在自然语言理解和特征提取中的应用，强调了深度双向Transformer模型在生成高质量文本表示以增强问答性能方面的能力
+@inproceedings{devlin-etal-2019-bert,
+    title = "{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    author = "Devlin, Jacob  and
+      Chang, Ming-Wei  and
+      Lee, Kenton  and
+      Toutanova, Kristina",
+    editor = "Burstein, Jill  and
+      Doran, Christy  and
+      Solorio, Thamar",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N19-1423",
+    doi = "10.18653/v1/N19-1423",
+    pages = "4171--4186",
+    abstract = "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5 (7.7 point absolute improvement), MultiNLI accuracy to 86.7{\%} (4.6{\%} absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
+}
+
+//Bonito模型训练方式
+@inproceedings{nayak-etal-2024-learning,
+    title = "Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation",
+    author = "Nayak, Nihal  and
+      Nan, Yiyang  and
+      Trost, Avi  and
+      Bach, Stephen",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.748",
+    doi = "10.18653/v1/2024.findings-acl.748",
+    pages = "12585--12611",
+    abstract = "We introduce Bonito, an open-source model for conditional task generation that converts unannotated text into task-specific training datasets for instruction tuning. We aim to enable zero-shot task adaptation of large language models on users{'} specialized, private data. We train Bonito by fine-tuning a pretrained large language model on a new large-scale dataset with 1.65M examples created by remixing existing instruction tuning datasets into meta-templates. The meta-templates for a dataset produce training examples where the input is the unannotated text and the task attribute and the output consists of the instruction and the response. We use Bonito to generate synthetic tasks for seven datasets from specialized domains with unannotated text across three task types{---}yes-no question answering, extractive question answering, and natural language inference{---}and adapt language models. We show that Bonito significantly improves the average performance of pretrained and instruction tuned models over the de facto self supervised baseline. For example, adapting Mistral-Instruct-v2 and instruction tuned variants of Mistral and Llama2 with Bonito improves the strong zero-shot performance by 22.1 F1 points whereas the next word prediction objective undoes some of the benefits of instruction tuning and reduces the average performance by 0.8 F1 points. We conduct additional experiments with Bonito to understand the effects of the domain, the size of the training set, and the choice of alternative synthetic task generators. Overall, we show that learning with synthetic instruction tuning datasets is an effective way to adapt language models to new domains. The model, dataset, and code are available at https://github.com/BatsResearch/bonito.",
+}
+
+//提出了两种新的模型架构，用于从大型数据集中计算单词的连续向量表示。这些表示的质量通过单词相似性任务来衡量，并且与基于不同类型神经网络的先前最佳技术进行比较
+@article{2013Efficient,
+  title={Efficient Estimation of Word Representations in Vector Space},
+  author={ Mikolov, Tomas  and  Chen, Kai  and  Corrado, Greg  and  Dean, Jeffrey },
+  journal={Computer Science},
+  year={2013},
+}
+
+@article{Chung2022ScalingIL,
+  title={Scaling Instruction-Finetuned Language Models},
+  author={Hyung Won Chung and Le Hou and S. Longpre and Barret Zoph and Yi Tay and William Fedus and Eric Li and Xuezhi Wang and Mostafa Dehghani and Siddhartha Brahma and Albert Webson and Shixiang Shane Gu and Zhuyun Dai and Mirac Suzgun and Xinyun Chen and Aakanksha Chowdhery and Dasha Valter and Sharan Narang and Gaurav Mishra and Adams Wei Yu and Vincent Zhao and Yanping Huang and Andrew M. Dai and Hongkun Yu and Slav Petrov and Ed Huai-hsin Chi and Jeff Dean and Jacob Devlin and Adam Roberts and Denny Zhou and Quoc V. Le and Jason Wei},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2210.11416},
+  url={https://api.semanticscholar.org/CorpusID:253018554}
+}
+
+
+@InProceedings{pmlr-v202-longpre23a,
+  title = 	 {The Flan Collection: Designing Data and Methods for Effective Instruction Tuning},
+  author =       {Longpre, Shayne and Hou, Le and Vu, Tu and Webson, Albert and Chung, Hyung Won and Tay, Yi and Zhou, Denny and Le, Quoc V and Zoph, Barret and Wei, Jason and Roberts, Adam},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {22631--22648},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/longpre23a/longpre23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/longpre23a.html},
+  abstract = 	 {We study the design decision of publicly available instruction tuning methods, by reproducing and breaking down the development of Flan 2022 (Chung et al., 2022). Through careful ablation studies on the Flan Collection of tasks and methods, we tease apart the effect of design decisions which enable Flan-T5 to outperform prior work by 3-17% across evaluation settings. We find task balancing and enrichment techniques are overlooked but critical to effective instruction tuning, and in particular, training with mixed prompt settings (zero-shot, few-shot, chain-of-thought) actually yields equivalent or stronger (2%) performance in all settings. In further experiments we show Flan-T5 requires less finetuning to converge higher and faster than T5 on single downstream tasks – motivating instruction-tuned models as more computationally-efficient starting checkpoints for new tasks. Finally, to accelerate research on instruction tuning, we make the Flan 2022 collection of datasets, templates, and methods publicly available.}
+}
+
+
+@article{Wei2021FinetunedLM,
+  title={Finetuned Language Models Are Zero-Shot Learners},
+  author={Jason Wei and Maarten Bosma and Vincent Zhao and Kelvin Guu and Adams Wei Yu and Brian Lester and Nan Du and Andrew M. Dai and Quoc V. Le},
+  journal={ArXiv},
+  year={2021},
+  volume={abs/2109.01652},
+  url={https://api.semanticscholar.org/CorpusID:237416585}
+}
+
+@article{10.5555/1622407.1622416,
+author = {Chawla, Nitesh V. and Bowyer, Kevin W. and Hall, Lawrence O. and Kegelmeyer, W. Philip},
+title = {SMOTE: synthetic minority over-sampling technique},
+year = {2002},
+issue_date = {January 2002},
+publisher = {AI Access Foundation},
+address = {El Segundo, CA, USA},
+volume = {16},
+number = {1},
+issn = {1076-9757},
+abstract = {An approach to the construction of classifiers from imbalanced datasets is described. A dataset is imbalanced if the classification categories are not approximately equally represented. Often real-world data sets are predominately composed of "normal" examples with only a small percentage of "abnormal" or "interesting" examples. It is also the case that the cost of misclassifying an abnormal (interesting) example as a normal example is often much higher than the cost of the reverse error. Under-sampling of the majority (normal) class has been proposed as a good means of increasing the sensitivity of a classifier to the minority class. This paper shows that a combination of our method of oversampling the minority (abnormal)cla ss and under-sampling the majority (normal) class can achieve better classifier performance (in ROC space)tha n only under-sampling the majority class. This paper also shows that a combination of our method of over-sampling the minority class and under-sampling the majority class can achieve better classifier performance (in ROC space)t han varying the loss ratios in Ripper or class priors in Naive Bayes. Our method of over-sampling the minority class involves creating synthetic minority class examples. Experiments are performed using C4.5, Ripper and a Naive Bayes classifier. The method is evaluated using the area under the Receiver Operating Characteristic curve (AUC)and the ROC convex hull strategy.},
+journal = {J. Artif. Int. Res.},
+month = jun,
+pages = {321–357},
+numpages = {37}
+}
+
+
+@article{Krawczyk2016LearningFI,
+  title={Learning from imbalanced data: open challenges and future directions},
+  author={B. Krawczyk},
+  journal={Progress in Artificial Intelligence},
+  year={2016},
+  volume={5},
+  pages={221 - 232},
+  url={https://api.semanticscholar.org/CorpusID:207475120}
+}
+
+//防止过拟合的正则化方法
+@ARTICLE{10533733,
+  author={Li, Hao and Rajbahadur, Gopi Krishnan and Lin, Dayi and Bezemer, Cor-Paul and Jiang, Zhen Ming},
+  journal={IEEE Access}, 
+  title={Keeping Deep Learning Models in Check: A History-Based Approach to Mitigate Overfitting}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={70676-70689},
+  keywords={Training;History;Time series analysis;Data models;Hidden Markov models;Measurement;Training data;Software engineering;Deep learning;Neural networks;Computer bugs;Detection algorithms;Trusted computing;Software engineering;deep learning;machine learning;overfitting;training history;early stopping;neural networks},
+  doi={10.1109/ACCESS.2024.3402543}}
+
+//dropout层
+@article{Cai2019EffectiveAE,
+  title={Effective and Efficient Dropout for Deep Convolutional Neural Networks},
+  author={Shaofeng Cai and Jinyang Gao and Meihui Zhang and Wei Wang and Gang Chen and Beng Chin Ooi},
+  journal={ArXiv},
+  year={2019},
+  volume={abs/1904.03392},
+  url={https://api.semanticscholar.org/CorpusID:102351044}
+}
+
+//FLAN2022模型
+@misc{wei2022finetunedlanguagemodelszeroshot,
+      title={Finetuned Language Models Are Zero-Shot Learners}, 
+      author={Jason Wei and Maarten Bosma and Vincent Y. Zhao and Kelvin Guu and Adams Wei Yu and Brian Lester and Nan Du and Andrew M. Dai and Quoc V. Le},
+      year={2022},
+      eprint={2109.01652},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2109.01652}, 
+}
+
+
+
+@article{mikolov2013,
+      title={Efficient Estimation of Word Representations in Vector Space}, 
+      author={Tomas Mikolov and Kai Chen and Greg Corrado and Jeffrey Dean},
+      year={2013},
+      eprint={1301.3781},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/1301.3781}, 
+}
+
+//多重可解释改进的PPO算法，结合了少量样本技术，称为F-GBQ-PPO。与常规PPO相比F-GBQ-PPO的主要改进在于增加了可解释性，并减少了对真实交互样本的需求
+@article{Wang2024APT,
+  title={A planar tracking strategy based on multiple-interpretable improved PPO algorithm with few-shot technique},
+  author={Xiao Wang and Zhe Ma and Lu Cao and Dechao Ran and Mingjiang Ji and Kewu Sun and Yuying Han and Jiake Li},
+  journal={Scientific Reports},
+  year={2024},
+  volume={14},
+  url={https://api.semanticscholar.org/CorpusID:267722253}
+}
+
+//指令微调
+@article{li2021prefix,
+      title={Prefix-Tuning: Optimizing Continuous Prompts for Generation}, 
+      author={Xiang Lisa Li and Percy Liang},
+      year={2021},
+      eprint={2101.00190},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2101.00190}, 
+}
+
+//
+@inproceedings{hu-etal-2023-llm,
+    title = "{LLM}-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models",
+    author = "Hu, Zhiqiang  and
+      Wang, Lei  and
+      Lan, Yihuai  and
+      Xu, Wanyu  and
+      Lim, Ee-Peng  and
+      Bing, Lidong  and
+      Xu, Xing  and
+      Poria, Soujanya  and
+      Lee, Roy",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.319",
+    doi = "10.18653/v1/2023.emnlp-main.319",
+    pages = "5254--5276",
+    abstract = "The success of large language models (LLMs), like GPT-4 and ChatGPT, has led to the development of numerous cost-effective and accessible alternatives that are created by finetuning open-access LLMs with task-specific data (e.g., ChatDoctor) or instruction data (e.g., Alpaca). Among the various fine-tuning methods, adapter-based parameter-efficient fine-tuning (PEFT) is undoubtedly one of the most attractive topics, as it only requires fine-tuning a few external parameters instead of the entire LLMs while achieving comparable or even better performance. To enable further research on PEFT methods of LLMs, this paper presents LLM-Adapters, an easy-to-use framework that integrates various adapters into LLMs and can execute these adapter-based PEFT methods of LLMs for different tasks. The framework includes state-of-the-art open-access LLMs such as LLaMA, BLOOM, and GPT-J, as well as widely used adapters such as Series adapters, Parallel adapter, Prompt-based learning and Reparametrization-based methods. Moreover, we conduct extensive empirical studies on the impact of adapter types, placement locations, and hyper-parameters to the best design for each adapter-based methods. We evaluate the effectiveness of the adapters on fourteen datasets from two different reasoning tasks, Arithmetic Reasoning and Commonsense Reasoning. The results demonstrate that using adapter-based PEFT in smaller-scale LLMs (7B) with few extra trainable parameters yields comparable, and in some cases superior, performance to powerful LLMs (175B) in zero-shot inference on simple math reasoning datasets.",
+}
+
+@article{Ye2023CognitiveMA,
+  title={Cognitive Mirage: A Review of Hallucinations in Large Language Models},
+  author={Hongbin Ye and Tong Liu and Aijia Zhang and Wei Hua and Weiqiang Jia},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2309.06794},
+  url={https://api.semanticscholar.org/CorpusID:261705916}
+}
+
+@article{2021LoRA,
+  title={LoRA: Low-Rank Adaptation of Large Language Models},
+  author={ Hu, Edward J.  and  Shen, Yelong  and  Wallis, Phillip  and  Allen-Zhu, Zeyuan  and  Li, Yuanzhi  and  Wang, Shean  and  Chen, Weizhu },
+  year={2021},
+}
+
+@article{10.1145/2347736.2347755,
+author = {Domingos, Pedro},
+title = {A few useful things to know about machine learning},
+year = {2012},
+issue_date = {October 2012},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {55},
+number = {10},
+issn = {0001-0782},
+url = {https://doi.org/10.1145/2347736.2347755},
+doi = {10.1145/2347736.2347755},
+abstract = {Tapping into the "folk knowledge" needed to advance machine learning applications.},
+journal = {Commun. ACM},
+month = oct,
+pages = {78–87},
+numpages = {10}
+}
+
+
+@article{2005Borderline,
+  title={Borderline-SMOTE: A New Over-Sampling Method in Imbalanced Data Sets Learning},
+  author={ Han, Hui  and  Wang, Wen Yuan  and  Mao, Bing Huan },
+  journal={Lecture Notes in Computer Science},
+  year={2005},
+}
