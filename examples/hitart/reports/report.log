@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.17)  18 NOV 2024 00:05
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.17)  18 NOV 2024 22:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1241,49 +1241,50 @@ Package fontspec Info: Font family 'FandolHei-Regular(0)' created for font
 
  [2
 
-] (./body/report_harbin_bachelor_opening.tex
-File: ./img/board1.png Graphic file (type bmp)
-<./img/board1.png>
- [1
+] (./body/report_harbin_bachelor_opening.tex [1
 
 ]
-Missing character: There is no ​ (U+200B) in font [TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-File: ./img/rl1.png Graphic file (type bmp)
-<./img/rl1.png>
-[2] [3]
+
+Package natbib Warning: Citation `Bai2022ConstitutionalAH' on page 2 undefined on input line 24.
+
+[2]
 File: ./img/liucheng.png Graphic file (type bmp)
 <./img/liucheng.png>
- [4] [5]
+ [3] [4]
 File: ./img/prompt.png Graphic file (type bmp)
 <./img/prompt.png>
+ [5]
 File: ./img/datadeal2.png Graphic file (type bmp)
 <./img/datadeal2.png>
 
 Missing character: There is no ​ (U+200B) in font [TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-[6]
 File: ./img/ft.png Graphic file (type bmp)
 <./img/ft.png>
- [7] [8]
+[6] [7]
 File: ./img/rm.png Graphic file (type bmp)
 <./img/rm.png>
- [9]
+ [8]
 File: ./img/pre.png Graphic file (type bmp)
 <./img/pre.png>
- [10] [11]
+ [9] [10]
 Missing character: There is no ​ (U+200B) in font [TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 File: ./img/dropout.png Graphic file (type bmp)
 <./img/dropout.png>
 Missing character: There is no ​ (U+200B) in font [TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-(./report.bbl [12]
-Underfull \hbox (badness 2426) in paragraph at lines 43--44
+(./report.bbl [11]
+Underfull \hbox (badness 2426) in paragraph at lines 52--56
 []\TU/TeXGyreTermesX(0)/m/n/12.045 Ye H, Liu T, Zhang A, et al. Cognitive Mirage: A Review of Hallucina-
  []
 
-[13]))
+[12]))
 \tf@thm=\write5
 \openout5 = `report.thm'.
 
- [14] (./report.aux)
+
+
+Package natbib Warning: There were undefined citations.
+
+[13] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -1292,16 +1293,22 @@ L3 programming layer <2022/08/05>
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 81CA295D5F12F6341C7B7C9B662AB6E6;4262.
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: E02647C7D93022E90576CB46D808C2B6;3821
+(rerunfilecheck)             After:  2D329386C21D8826B92E03A73426C535;3922.
  ) 
 Here is how much of TeX's memory you used:
- 24089 strings out of 474773
- 493161 string characters out of 5761288
- 1942842 words of memory out of 5000000
- 45776 multiletter control sequences out of 15000+600000
- 594851 words of font info for 176 fonts, out of 8000000 for 9000
+ 24057 strings out of 474773
+ 492064 string characters out of 5761288
+ 1945842 words of memory out of 5000000
+ 45745 multiletter control sequences out of 15000+600000
+ 594859 words of font info for 177 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,12n,111p,1197b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,12n,111p,1197b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.pdf (16 pages).
+Output written on report.pdf (15 pages).
