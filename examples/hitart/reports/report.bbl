@@ -31,6 +31,58 @@
   \bibyear{2022}\@, \bibvolume{35}\textnormal{:
   }\bibpages{27730\textnormal{-}27744}\@.
 
+\bibitem{mahan2024generative}
+\bibauthor{Mahan D\@, Van~Phung D\@, Rafailov R, et~al}\@. \bibtitle{Generative
+  reward models}\bibmark{[J]}\@. \bibjournal{arXiv preprint
+  arXiv:2410.12832}\@, \bibyear{2024}\@.
+
+\bibitem{bai2022constitutional}
+\bibauthor{Bai Y\@, Kadavath S\@, Kundu S, et~al}\@. \bibtitle{Constitutional
+  ai: Harmlessness from ai feedback}\bibmark{[J]}\@. \bibjournal{arXiv preprint
+  arXiv:2212.08073}\@, \bibyear{2022}\@.
+
+\bibitem{arXiv:2309.00267}
+\bibauthor{Lee H\@, Phatale S\@, Mansoor H, et~al}\@. \bibtitle{RLAIF: SCALING
+  REINFORCEMENT LEARNING FROM HUMAN FEEDBACK WITH AI
+  FEEDBACK}\bibmark{[J/OL]}\@. \bibjournal{CoRR}\@, \bibyear{2023}\@,
+  \bibvolume{abs/2309.00267}\@. \url{https://arxiv.org/abs/2309.00267}\@.
+
+\bibitem{zhang2024generative}
+\bibauthor{Zhang L\@, Hosseini A\@, Bansal H, et~al}\@. \bibtitle{Generative
+  verifiers: Reward modeling as next-token prediction}\bibmark{[J]}\@.
+  \bibjournal{arXiv preprint arXiv:2408.15240}\@, \bibyear{2024}\@.
+
+\bibitem{宋会倩2021基于卷积神经网络的网络安全态势感知研究}
+\bibauthor{宋会倩}\@.
+  \bibtitle{基于卷积神经网络的网络安全态势感知研究}\bibmark{[D]}\@.
+  \bibaddress{[S.l.]}\textnormal{: }\bibschool{河北师范大学}\@,
+  \bibyear{2021}\@.
+
+\bibitem{SVM的网络安全态势评估}
+\bibauthor{赵冬梅\@, 孙明伟\@, 宿梦月, et~al}\@.
+  \bibtitle{基于改进SKNet-SVM的网络安全态势评估}\bibmark{[J]}\@.
+  \bibjournal{应用科学学报}\@, \bibyear{2024}\@,
+  \bibvolume{42}\bibnumber{(2)}\textnormal{:
+  }\bibpages{334\textnormal{-}349}\@.
+
+\bibitem{1023744319.nh}
+\bibauthor{李泽煜}\@.
+  \bibtitle{基于深度学习的轻量级入侵检测模型与算法研究}\bibmark{[D]}\@.
+  \bibaddress{[S.l.]}\textnormal{: }\bibschool{江西理工大学}\@,
+  \bibyear{2023}\@.
+
+\bibitem{基于深度学习的入侵检测模型综述}
+\bibauthor{张昊\@, 张小雨\@, 张振友, et~al}\@.
+  \bibtitle{基于深度学习的入侵检测模型综述}\bibmark{[J]}\@.
+  \bibjournal{计算机工程与应用}\@, \bibyear{2022}\@,
+  \bibvolume{58}\bibnumber{(6)}\textnormal{: }\bibpages{17\textnormal{-}28}\@.
+
+\bibitem{高嘉2023基于深度学习的网络异常流量检测研究与系统实现}
+\bibauthor{高嘉}\@.
+  \bibtitle{基于深度学习的网络异常流量检测研究与系统实现}\bibmark{[D]}\@.
+  \bibaddress{[S.l.]}\textnormal{: }\bibschool{石河子大学}\@,
+  \bibyear{2023}\@.
+
 \bibitem{yang2024network}
 \bibauthor{Yang H\@, Zhang H\@, Hu Z, et~al}\@. \bibtitle{A Review of Network
   Anomaly Traffic Detection Based on Deep Learning}\bibmark{[J/OL]}\@.
