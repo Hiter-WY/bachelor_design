@@ -17,11 +17,11 @@
 
 \section{国内外在该方向的研究现状及分析}
 \subsection{国际研究现状}
-为了解决人类反馈在生成式模型的调整中的种种局限性，国外的研究者提出了RLHF、RLAIF、GenRM迭代算法、链式思考推理的集成以及谷歌提出的GenRM生成式验证器。
+为了解决人类反馈在生成式模型的调整中的种种局限性，国外的研究者提出了RLHF、RLAIF、RLHF与RLAIF的混合方法以及谷歌提出的GenRM生成式验证器。
 \subsubsection{RLHF方法}
 通过强化学习（RL）框架，特别是近端策略优化（PPO）算法，来微调的语言模型，其行为更符合人类反馈所指示的偏好。在TruthfulQA基准测试中\cite{ouyang2022training}，InstructGPT（RLHF框架下的大模型）生成真实和有信息量的回答的频率是GPT-3的两倍，并且在“封闭领域”任务中，InstructGPT模型捏造信息的频率大约是GPT-3的一半（21\%对比41\%的幻觉率）。然而，这一过程资源密集且技术挑战大\cite{mahan2024generative}，通常需要大量的人类偏好标签来训练反映人类偏好的奖励模型。
 \subsubsection{RLAIF方法}
-由于基于人类反馈的局限性，研究者提出了“宪法AI”\cite{bai2022constitutional}（Constitutional AI，简称CAI）的方法，通过结合SL与RF，利用人类指令训练模型，而无需任何人类标签来识别有害输出。然而模型的泛化能力将会是一个问题，尽管在特定任务和数据集上表现出色，但在未见过的任务和领域上的表现仍然是一个未知数。
+由于基于人类反馈的局限性，研究者提出了“宪法AI”\cite{bai2022constitutional}（Constitutional AI）的方法，通过结合SL与RF，利用人类指令训练模型，而无需任何人类标签来识别有害输出。然而模型的泛化能力将会是一个问题，尽管在特定任务和数据集上表现出色，但在未见过的任务和领域上的表现仍然是一个未知数。
 \subsubsection{RLHF与RLAIF的混合方法}
 由于RLHF与RLAIF都有一定的缺陷但是其优点不可忽视，从而提出了两种RLAIF策略\cite{arXiv:2309.00267}：“Distilled RLAIF”和“Direct RLAIF”。在“Distilled RLAIF”中，研究者们遵循传统的RLHF方法，使用偏好来训练一个奖励模型，然后使用这个模型来训练LLM策略。而在“Direct RLAIF”中，研究者们利用LLM反馈，通过提示LLM直接输出评估分数，作为强化学习中策略训练的信号。该方法结合了人类反馈和人工智能反馈来训练大型语言模型。这种方法的核心在于使用RLAIF策略，它不依赖于人类注释，同时提供了吸引人的扩展属性。研究者们比较了RLAIF和RLHF在三个任务上的有效性：摘要生成、有益对话生成和无害对话生成。实验结果表明，RLAIF和RLHF在人类偏好上的表现相当，RLAIF在无害对话生成任务上甚至超过了RLHF。
 \subsubsection{GenRM生成式验证器}
